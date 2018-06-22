@@ -23,8 +23,7 @@ a {
 
 header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   color: white;
   background-image: url("../images/glasses-bg.png");
   background-repeat: no-repeat;
@@ -33,8 +32,15 @@ header {
   height: 30rem;
 }
 
-.nav-bar {
+.container {
   width: 960px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 888px;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -55,6 +61,19 @@ header {
 
 .services, .product {
   margin-right: 2rem;
+}
+
+.slogan {
+  background-color: white;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+  line-height: 1.2;
+  position: relative;
+  top: 10rem;
+  align-self: flex-end;
+  left: 2rem;
 }
 
 /*Middle section with icons and descriptions*/
