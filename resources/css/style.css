@@ -7,11 +7,55 @@ html {
 body {
   line-height: 1.4;
   font-family: Helvetica;
+  font-size: 1rem;
+}
+
+footer, div, section, header, main, span, a, img, p {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* header - navigation bar*/
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
 
+.nav-bar {
+  width: 960px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.services, .product {
+  margin-right: 2rem;
+}
 
 /*Middle section with icons and descriptions*/
 
