@@ -82,13 +82,14 @@ header {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 8rem;
 }
 
 .full-icon {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 8rem;
   text-align: center;
 }
 
@@ -96,7 +97,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 7rem;
+  width: 3.5rem;
 }
 
 .exam img {
@@ -106,16 +107,39 @@ header {
 .custom {
   margin-right: 6rem;
   margin-left: 6rem;
+  width: 5rem;
+}
+
+.custom img {
+  width: 5rem;
 }
 
 .delivery {
-
+  width: 5rem;
 }
 
+.delivery img {
+  width: 5rem;
+}
 
 /*Section with text blerbs*/
 
+.text-blerbs {
+  display: flex;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
 
+.blerb {
+  width: 35%;
+}
+
+.philosophy-title, .appointments-title {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
 
 /*Copright blerb*/
 
