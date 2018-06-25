@@ -78,6 +78,39 @@ header {
 
 /*Middle section with icons and descriptions*/
 
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.full-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+  text-align: center;
+}
+
+.exam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7rem;
+}
+
+.exam img {
+  width: 3.5rem;
+}
+
+.custom {
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.delivery {
+
+}
 
 
 /*Section with text blerbs*/
