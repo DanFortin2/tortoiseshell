@@ -67,7 +67,31 @@ header {
 
 .menu {
   display: none;
+  padding-bottom: 1rem;
 }
+
+.dropdown{
+  width: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: cadetblue;
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-link {
+  display: block;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  display: none;
+}
+
 
 .slogan {
   background-color: white;
@@ -200,6 +224,10 @@ footer {
   .nav-bar {
     margin-top: 0;
     width: 100%;
+  }
+
+  .dropdown:hover .drop-link {
+    display: block;
   }
 
   .slogan {
