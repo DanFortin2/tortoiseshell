@@ -10,10 +10,6 @@ body {
   font-size: 1rem;
 }
 
-footer, div, section, header, main, span, a, img, p {
-  border: 1px solid black;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -155,6 +151,24 @@ header {
 
 /*Copright blerb*/
 
+footer {
+  display: flex;
+  justify-content: center;
+}
 
+.copright {
+  background-color: azure;
+  width: 960px;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
 
 /*Media Querries*/
