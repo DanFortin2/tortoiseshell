@@ -37,7 +37,8 @@ header {
 
 .nav-bar {
   width: 888px;
-  padding: 1rem 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,6 +49,11 @@ header {
 .nav-logo {
   display: flex;
   align-items: center;
+  margin-left: 2rem;
+}
+
+.nav-links {
+  margin-right: 2rem;
 }
 
 .nav-logo img {
@@ -173,6 +179,34 @@ footer {
 
 /*Media Querries*/
 
-@media only screen and (width: 1050px) {
+
+@media only screen and (max-width: 1050px) {
+  /* header - navigation bar*/
+
+  header {
+    height: 22rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .nav-bar {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .slogan {
+    left: -2rem;
+    top: 5rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+  /*Middle section with icons and descriptions*/
+
+  /*Section with text blerbs*/
+
+  /*Copright blerb*/
 
 }
