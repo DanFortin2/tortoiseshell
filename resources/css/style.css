@@ -65,6 +65,10 @@ header {
   margin-right: 2rem;
 }
 
+.menu {
+  display: none;
+}
+
 .slogan {
   background-color: white;
   color: black;
@@ -244,6 +248,14 @@ footer {
 
   .full-icon {
     justify-content: space-around;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .menu {
+    display: block;
   }
 
   /*Section with text blerbs*/
