@@ -308,17 +308,25 @@ footer {
   .philosophy-title, .appointments-title {
     text-align: center;
     margin-bottom: 1rem;
-    width: 96%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
   }
 
   .left {
     margin-left: 0;
-    margin-right: 0%;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .right {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
 
